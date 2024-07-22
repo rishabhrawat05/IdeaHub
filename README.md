@@ -76,20 +76,6 @@ We all encounter unique ideas for solving problems in our daily lives, but often
        jpa:
          hibernate:
            ddl-auto: update
-       application:
-         name: ideahub
-
-     eureka:
-       client:
-         serviceUrl:
-           defaultZone: http://localhost:8085/eureka
-
-     security:
-       jwt:
-         secret-key: your-secret-key
-         expiration-time: 3600000
-
-  
      ```
 
    - Run the Spring Boot application:
